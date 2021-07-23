@@ -1531,7 +1531,7 @@ var ExprRawGen = {
             var lastPropIdx = propCount - 1,
                 multiline   = false;
 
-            if (propCount === 1)
+            if (propCount === 1 && $props[0].value)
                 multiline = $props[0].value.type !== Syntax.Identifier;
 
             else {
