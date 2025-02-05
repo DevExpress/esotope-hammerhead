@@ -12,7 +12,6 @@ export enum Syntax {
     BreakStatement           = 'BreakStatement',
     CallExpression           = 'CallExpression',
     CatchClause              = 'CatchClause',
-    ChainExpression          = 'ChainExpression',
     ClassBody                = 'ClassBody',
     ClassDeclaration         = 'ClassDeclaration',
     ClassExpression          = 'ClassExpression',
