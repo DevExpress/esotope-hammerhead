@@ -53,6 +53,7 @@ export enum Syntax {
     PrivateIdentifier        = 'PrivateIdentifier',
     Program                  = 'Program',
     Property                 = 'Property',
+    PropertyDefinition       = 'PropertyDefinition',
     RestElement              = 'RestElement',
     ReturnStatement          = 'ReturnStatement',
     SequenceExpression       = 'SequenceExpression',
